@@ -3,3 +3,200 @@
 *::before {
     box-sizing: border-box;
 }
+body {
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.62;
+    color: #22343d;
+    background-color: #FFFFFF;
+}
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+img {
+    display: block;
+}
+
+button {
+    cursor: pointer;
+    display: block;
+    border: none;
+}
+.container{
+    max-width: 1150px;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin: 0 auto;
+}
+.hdr-container {
+    display: flex;
+    align-items: center;
+}
+.navigation{
+    display: flex;
+    align-items: center;
+}
+.hdr-logo {
+    display: flex;
+    align-items: center;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 0.93;
+    color: #173a56;
+    gap: 16px;
+    margin-right: 237px;
+    padding: 22px 0;
+}
+.nav-list {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+.nav-link {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.75;
+    color: #22343d;
+}
+.nav-item {
+    padding: 22px 0
+}
+.active {
+    font-weight: 600;
+}
+.nav-btn-list {
+    display: flex;
+    align-items: center;
+    gap: 21px;
+    margin-left: auto;
+}
+.nav-btn {
+    border: 1px solid #bcd0e5;
+    border-radius: 4px;
+    width: 105px;
+    height: 42px;
+    font-weight: 600;
+    font-size: 16px;
+    text-align: center;
+    color: #173a56;
+    background-color: #FFFFFF;
+}
+.second {
+    background-color: #02897A;
+    color: #FFFFFF;
+    border: none;
+}
+.hero-section {
+    padding-top: 25px;
+    padding-bottom: 100px;
+}
+.hero-container {
+    display: flex;
+}
+.hero-text {
+    padding: 112px 0;
+    margin-right: 35px;
+}
+.hero-title {
+    max-width: 422px;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 1.50;
+    color: #22343d;
+    padding-right: 13px;
+    margin-bottom: 18px;
+}
+.hero-description {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 1.56;
+    color: #22343d;
+    margin-bottom: 45px;
+}
+.hero-btns-list {
+    display: flex;
+    gap: 30px;
+    align-items: center;
+}
+.hero-btn-one {
+    font-weight: 700;
+    font-size: 16px;
+    color: #fff;
+    width: 178px;
+    height: 53px;
+    background-color: #02897A;
+    border-radius: 4px;
+}
+.hero-btn-two {
+font-weight: 600;
+font-size: 16px;
+text-decoration: underline;
+text-decoration-skip-ink: none;
+color: #02897a;
+background-color: #FFFFFF;
+padding-top: 15px 0;
+}
+.benefits-section {
+    padding-bottom: 50px;
+}
+.benefits-title {
+    max-width: 539px;
+    font-weight: 700;
+    font-size: 32px;
+    text-align: center;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 0 22px;
+    margin-bottom: 50px;
+}
+.benefits-list {
+    display: flex;
+    gap: 30px;
+    align-items: baseline;
+    margin-bottom: 50px;
+}
+.benefits-list-item {
+    width: calc((100% - 90px) / 4);
+    padding-top: 130px;
+}
+.benefits-list-title {
+    font-weight: 600;
+    font-size: 22px;
+    text-align: left;
+}
+.benefits-list-text {
+font-weight: 400;
+font-size: 16px;
+line-height: 1.62;
+text-align: left;
+}
+.benefits-btn {
+font-weight: 700;
+font-size: 16px;
+color: #fff;
+border-radius: 4px;
+width: 175px;
+height: 53px;
+background: #02897a;
+display: block;
+margin: 0 auto;
+}
