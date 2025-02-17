@@ -200,3 +200,46 @@ background: #02897a;
 display: block;
 margin: 0 auto;
 }
+.managment-section {
+margin-bottom: 100px;
+}
+.management-cntr, .collab-cntr {
+    display: flex;
+    align-items:center;
+    justify-content: space-between;
+    padding-bottom: 41px;
+    
+}
+.mangment-title, .collab-title {
+    font-weight: 600;
+    font-size: 16px;
+    max-width: 224px;
+}
+.title-part-one {
+    font-weight: 700;
+    font-size: 32px;
+}
+.managment-text, .collab-text {
+font-weight: 400;
+font-size: 16px;
+line-height: 1.62;
+max-width: 486px;
+padding-top: 25px;
+padding-bottom: 30px;
+}
+.managment-list-title, .collab-list-title {
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 1.62;
+    padding-bottom: 12px;
+}
+.managment-list-text, .collab-list-text {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.62;
+    max-width: 486px;
+    padding-bottom: 25px;
+}
+.collab-section {
+    margin-bottom: 150px;
+}
