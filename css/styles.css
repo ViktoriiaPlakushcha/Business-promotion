@@ -411,7 +411,7 @@ color: #22343d;
     border: 1px solid #e8e8e8;
     border-radius: 39px;
     padding: 19px 20px;
-    width: 768px;
+    width: 100%;
     height: 54px;
     background-color: #f5f5f5;
     font-weight: 400;
@@ -424,7 +424,7 @@ color: #22343d;
 .form-massage {
     border: 1px solid #e8e8e8;
     padding: 23px 20px;
-    width: 768px;
+    width: 100%;
     height: 193px;
     font-weight: 400;
     font-size: 15px;
