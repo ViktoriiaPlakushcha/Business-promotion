@@ -241,46 +241,42 @@
             prototyping, marketing strategy, landing page, Ux/UI?
           </p>
           <ul class="experts-list">
-            <div class="experts-list-cntr">
-              <li class="experts-list-item">
-                <img
-                  src="./images/avatar.png"
-                  alt="photo-of-woman"
-                  width="98"
-                  height="98"
-                />
-                <p class="experts-list-text">I can take care of your pitch</p>
-              </li>
-              <li class="experts-list-item reverse-list-item">
-                <img
-                  src="./images/avatar-two.png"
-                  alt="photo-of-man"
-                  width="98"
-                  height="98"
-                />
-                <p class="experts-list-text">I can take care of your pitch</p>
-              </li>
-            </div>
-            <div class="experts-list-cntr">
-              <li class="experts-list-item reverse-list-item">
-                <img
-                  src="./images/avatar-one.png"
-                  alt="photo-of-woman"
-                  width="98"
-                  height="98"
-                />
-                <p class="experts-list-text">I can prototype your app</p>
-              </li>
-              <li class="experts-list-item">
-                <img
-                  src="./images/avatar-three.png"
-                  alt=""
-                  width="98"
-                  height="98"
-                />
-                <p class="experts-list-text">I can help marketing strategy</p>
-              </li>
-            </div>
+            <li class="experts-list-item">
+              <img
+                src="./images/avatar.png"
+                alt="photo-of-woman"
+                width="98"
+                height="98"
+              />
+              <p class="experts-list-text">I can take care of your pitch</p>
+            </li>
+            <li class="experts-list-item reverse-list-item">
+              <img
+                src="./images/avatar-one.png"
+                alt="photo-of-woman"
+                width="98"
+                height="98"
+              />
+              <p class="experts-list-text">I can prototype your app</p>
+            </li>
+            <li class="experts-list-item reverse-list-item">
+              <img
+                src="./images/avatar-two.png"
+                alt="photo-of-man"
+                width="98"
+                height="98"
+              />
+              <p class="experts-list-text">I can take care of your pitch</p>
+            </li>
+            <li class="experts-list-item">
+              <img
+                src="./images/avatar-three.png"
+                alt=""
+                width="98"
+                height="98"
+              />
+              <p class="experts-list-text">I can help marketing strategy</p>
+            </li>
           </ul>
           <button type="button" class="contact-btn">Contact our expert</button>
         </div>
@@ -324,7 +320,9 @@
                   2019
                 </p>
                 <h3 class="contents-list-title">
-                  Motivation Is The First Step To Success
+                  <span class="highlited-text"
+                    >Motivation Is The First Step To Success</span
+                  >
                 </h3>
               </div>
             </li>
@@ -349,7 +347,7 @@
         </div>
       </section>
       <section>
-        <div class="container">
+        <div class="container prices-container">
           <!-- Price table -->
           <h2 class="price-title">Price Table</h2>
           <p class="price-text">We offer competitive price</p>
@@ -357,59 +355,71 @@
             <li class="price-table-item">
               <h3 class="price-table-item-title">Free</h3>
               <p class="price-table-discr">Brief price description</p>
-              <h4 class="price">0</h4>
-              <p class="dollar">&#36;</p>
-              <p>Per / month</p>
+              <div class="sum-cntr">
+                <h4 class="price">0</h4>
+                <div class="dollar-cntr">
+                  <p class="dollar">&#36;</p>
+                  <p class="sum-text">Per / month</p>
+                </div>
+              </div>
               <ul class="list-package">
                 <li class="list-package-item">
-                  <h5>Only 2 Operators</h5>
+                  <h5 class="package-item">Only 2 Operators</h5>
                 </li>
                 <li class="list-package-item">
-                  <h5>Notifications</h5>
+                  <h5 class="package-item">Notifications</h5>
                 </li>
                 <li class="list-package-item">
-                  <h5>Landing Pages</h5>
+                  <h5 class="package-item">Landing Pages</h5>
                 </li>
               </ul>
-              <button type="button">Order Now</button>
+              <button class="price-table-btn" type="button">Order Now</button>
             </li>
-            <li class="price-table-item">
+            <li class="price-table-item odd-one">
               <h3 class="price-table-item-title">Standard</h3>
               <p class="price-table-discr">Brief price description</p>
-              <h4 class="price">5</h4>
-              <p class="dollar">&#36;</p>
-              <p>Per / month</p>
+              <div class="sum-cntr">
+                <h4 class="price odd">5</h4>
+                <div class="dollar-cntr">
+                  <p class="dollar odd">&#36;</p>
+                  <p class="sum-text">Per / month</p>
+                </div>
+              </div>
               <ul class="list-package">
                 <li class="list-package-item">
-                  <h5>5+ Operators</h5>
+                  <h5 class="package-item">5+ Operators</h5>
                 </li>
                 <li class="list-package-item">
-                  <h5>Notifications</h5>
+                  <h5 class="package-item">Notifications</h5>
                 </li>
                 <li class="list-package-item">
-                  <h5>Landing Pages</h5>
+                  <h5 class="package-item">Landing Pages</h5>
                 </li>
               </ul>
-              <button type="button">Order Now</button>
+              <button class="price-table-btn" type="button">Order Now</button>
             </li>
             <li class="price-table-item">
               <h3 class="price-table-item-title">Premium</h3>
               <p class="price-table-discr">Brief price description</p>
-              <h4 class="price">10</h4>
-              <p class="dollar">&#36;</p>
-              <p>Per / month</p>
+              <div class="sum-cntr">
+                <h4 class="price">10</h4>
+                <div class="dollar-cntr">
+                  <p class="dollar">&#36;</p>
+                  <p class="sum-text">Per / month</p>
+                </div>
+              </div>
               <ul class="list-package">
                 <li class="list-package-item">
-                  <h5>10+ Operators</h5>
+                  <h5 class="package-item">10+ Operators</h5>
                 </li>
                 <li class="list-package-item">
-                  <h5>Notifications</h5>
+                  <h5 class="package-item">Notifications</h5>
                 </li>
                 <li class="list-package-item">
-                  <h5>Landing Pages</h5>
+                  <h5 class="package-item">Landing Pages</h5>
                 </li>
               </ul>
-              <button type="button">Order Now</button>
+              <button class="price-table-btn" type="button">Order Now</button>
             </li>
           </ul>
         </div>
